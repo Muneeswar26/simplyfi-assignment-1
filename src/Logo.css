@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #826a5b;
+  }
+  
+  .diamond {
+    width: 250px;
+    height: 250px;
+    background: transparent;
+    position: relative;
+    transform: rotate(45deg); /* Rotate the square to create a diamond */
+    border: 20px solid transparent;
+    border-top-color: #ca5e3a; /* Top border color */
+    border-right-color: #e6e1e1af; /* Right border color */
+    border-bottom-color: #45a2c7; /* Bottom border color */
+    border-left-color: #98d8a7; /* Left border color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-content {
+    transform: rotate(-45deg); /* Rotate the content back to normal */
+    text-align: center;
+    color: #333;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    
+    color: white;
+  }
+  .and{
+    color: #ca5e3a;
+  }
